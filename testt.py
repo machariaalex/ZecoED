@@ -139,9 +139,8 @@ def generate_questions_rapidapi(subject, class_level, paper=None, num_questions=
         prompt = f"""Generate {num_questions} multiple choice questions for {subject}{paper_info} for {class_level}.
         Each question should follow this format:
         1. Question text
-        2. Four options labeled A, B, C, D
-        3. Correct answer letter
-        4. Brief explanation
+        2. Correct answer letter
+        3. Brief explanation
 
         Make the questions challenging but appropriate for the level.
         Ensure a mix of conceptual understanding and problem-solving.
