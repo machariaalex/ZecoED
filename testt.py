@@ -159,7 +159,7 @@ def generate_questions_rapidapi(subject, class_level, paper=None, num_questions=
         ]
 
         headers = {
-            "x-rapidapi-key": "d26bbb724amshab9f9f59d682630p1a4c64jsn59c5579eaef8",
+            "x-rapidapi-key": "8f8fe3b468mshb167b7d07f8f9d2p16d170jsn86bb14debea5",
             "x-rapidapi-host": "chatgpt-api8.p.rapidapi.com",
             "Content-Type": "application/json"
         }
