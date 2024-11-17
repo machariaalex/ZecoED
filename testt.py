@@ -456,17 +456,7 @@ def login_page():
                 st.rerun()
             else:
                 st.error("❌ Invalid username or password")
-        
-        st.markdown("---")
-        st.markdown("""
-        # <div style="background-color: #f8f9fa; padding: 1rem; border-radius: 10px;">
-        #     <h4>Demo Credentials</h4>
-        #     <code>
-        #     Teacher: teacher1 / pass123<br>
-        #     Student: student1 / pass123
-        #     </code>
-        # </div>
-        """, unsafe_allow_html=True)
+
 
 def main():
     if not st.session_state.logged_in:
